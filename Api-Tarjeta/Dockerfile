@@ -20,4 +20,4 @@ WORKDIR /app
 COPY --from=builder /app/target/Api-Tarjeta-0.0.1-SNAPSHOT.jar /app/Api-Tarjeta-0.0.1-SNAPSHOT.jar
 
 # Define el comando para ejecutar el JAR
-ENTRYPOINT ["java", "-jar", "BackendTest-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "Api-Tarjeta-0.0.1-SNAPSHOT.jar"]

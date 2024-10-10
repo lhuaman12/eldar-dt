@@ -53,6 +53,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.eldar.ApiTarjetaApplication</mainClass> <!-- Cambia por la clase principal de tu proyecto -->
+                </configuration>
             </plugin>
         </plugins>
     </build>
